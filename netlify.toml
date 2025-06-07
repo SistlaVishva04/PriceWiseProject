@@ -1,8 +1,15 @@
 [build]
-  base = "project"       # Netlify will run commands in /project
-  command = "npm run build"
-  publish = "project/dist"  # Where your built files will be
+  command = "cd project && npm run build"  # Explicit directory change
+  publish = "project/dist"  # Single project reference
+  functions = "functions"
 
 [dev]
-  command = "npm run dev"
-  publish = "project"    # For local dev server
+  command = "cd project && npm run dev"
+  port = 5173
+  publish = "project"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true

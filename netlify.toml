@@ -1,15 +1,15 @@
 [build]
-  base = "project"               # All commands run inside /project
-  command = "npm install && npm run build"
-  publish = "dist"       # Where Vite outputs files
+  base = "project"   
+  command = "npm run build"
+  publish = "dist"
 
 [dev]
-  command = "npm run dev"        # Runs from /project due to base
-  port = 5173                    # Must match Vite's default
-  publish = "project"            # Source files location
+  command = "npm run dev"
+  port = 5173
+  publish = "project"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  force = true                   # Critical for SPAs
+  force = true 

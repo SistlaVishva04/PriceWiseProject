@@ -1,7 +1,7 @@
 [build]
   base = "project"               # All commands run inside /project
   command = "npm install && npm run build"
-  publish = "project/dist"       # Where Vite outputs files
+  publish = "dist"       # Where Vite outputs files
 
 [dev]
   command = "npm run dev"        # Runs from /project due to base

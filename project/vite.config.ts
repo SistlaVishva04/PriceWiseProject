@@ -1,10 +1,15 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
+  base: '/',                     // Root-relative paths
+  build: {
+    outDir: 'dist',              // Must match netlify.toml's publish
+    emptyOutDir: true,           // Cleans dist folder before build
   },
-});
+  server: {
+    port: 5173,                  // Must match netlify.toml
+    strictPort: true             // Prevent automatic port switching
+  }
+})

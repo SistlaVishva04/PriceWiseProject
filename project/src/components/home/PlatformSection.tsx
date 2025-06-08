@@ -1,27 +1,31 @@
+import flipkartlogo from '../../logos/flipkartlogo.png';
+import amazonlogo from '../../logos/amazonlogo.png';
+import meeshologo from '../../logos/meeshologo.jpeg';
+import myntra from '../../logos/myntra.png';
 
 const PlatformSection = () => {
   const platforms = [
     { 
       name: 'Amazon', 
-      logo: 'https://images.pexels.com/photos/7010427/pexels-photo-7010427.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      logo: amazonlogo,
       products: '50M+',
       dealsRefresh: 'Hourly'
     },
     { 
       name: 'Flipkart', 
-      logo: 'https://images.pexels.com/photos/5875866/pexels-photo-5875866.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      logo: flipkartlogo,
       products: '30M+',
       dealsRefresh: 'Daily'
     },
     { 
       name: 'Meesho', 
-      logo: 'https://www.google.com/imgres?q=meesho%20logo&imgurl=https%3A%2F%2Fimages.moneycontrol.com%2Fstatic-mcnews%2F2023%2F06%2FMeesho-682x435.jpg&imgrefurl=https%3A%2F%2Fwww.moneycontrol.com%2Fnews%2Fbusiness%2Fmeesho-unveils-new-logo-to-appeal-to-wider-audience-10763441.html&docid=BKqmmIZReyBeQM&tbnid=3cp3WvMEMXFp5M&vet=12ahUKEwjRj_-ZiN-NAxXWxjgGHZrhJ0QQM3oECGYQAA..i&w=682&h=435&hcb=2&ved=2ahUKEwjRj_-ZiN-NAxXWxjgGHZrhJ0QQM3oECGYQAA',
+      logo: meeshologo,
       products: '15M+',
       dealsRefresh: 'Daily'
     },
     { 
       name: 'Myntra', 
-      logo: 'https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      logo: myntra,
       products: '20M+',
       dealsRefresh: 'Weekly'
     }

@@ -1,10 +1,26 @@
 // Mock data for frontend development
-
 import { Product } from '../types/product';
 import { Category } from '../types/product';
 import { ProductReview } from '../types/product';
 import { PriceHistoryPoint } from '../types/product';
 import { SearchFilters } from '../types/product';
+import amazonlogo from '../logos/amazonlogo.png';
+import flipkartlogo from '../logos/flipkartlogo.png';
+import meeshologo from '../logos/meeshologo.jpeg';
+import myntra from '../logos/myntra.png';
+import applestorelogo from '../logos/applestorelogo.png';
+import nykaalogo from '../logos/nykaalogo.png';
+
+const platformLogos: Record<string, string> = {
+  Amazon: amazonlogo,
+  Flipkart: flipkartlogo,
+  Meesho: meeshologo,
+  Myntra: myntra,
+  AppleStore: applestorelogo,
+  Nykaa: nykaalogo
+};
+
+
 const mockProducts: Product[] = [
   // Electronics Category
   {
@@ -33,7 +49,7 @@ const mockProducts: Product[] = [
         name: 'Amazon',
         price: 129900,
         url: 'https://www.amazon.in/Apple-iPhone-13-Pro-Max/dp/B09G9HD6PD',
-        logo: 'https://images.pexels.com/photos/7010427/pexels-photo-7010427.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['Amazon'],
         inStock: true,
         delivery: '1-2 days'
       },
@@ -41,7 +57,7 @@ const mockProducts: Product[] = [
         name: 'Flipkart',
         price: 129999,
         url: 'https://www.flipkart.com/apple-iphone-13-pro-max-graphite-256-gb/p/itm5a2928ba72a03',
-        logo: 'https://images.pexels.com/photos/5875866/pexels-photo-5875866.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['Flipkart'],
         inStock: true,
         delivery: '2-3 days'
       },
@@ -49,7 +65,7 @@ const mockProducts: Product[] = [
         name: 'Apple Store',
         price: 129900,
         url: 'https://www.apple.com/in/shop/buy-iphone/iphone-13-pro',
-        logo: 'https://images.pexels.com/photos/9402363/pexels-photo-9402363.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['AppleStore'],
         inStock: true,
         delivery: 'Same day'
       }
@@ -104,7 +120,7 @@ const mockProducts: Product[] = [
         name: 'Amazon',
         price: 109999,
         url: 'https://www.amazon.in/Samsung-Galaxy-Ultra-Phantom-Storage/dp/B09SH7FDKT',
-        logo: 'https://images.pexels.com/photos/7010427/pexels-photo-7010427.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo:platformLogos['Amazon'],
         inStock: true,
         delivery: '1-2 days'
       },
@@ -112,7 +128,7 @@ const mockProducts: Product[] = [
         name: 'Flipkart',
         price: 109999,
         url: 'https://www.flipkart.com/samsung-galaxy-s22-ultra-5g-phantom-black-256-gb/p/itm4a0d5d5386849',
-        logo: 'https://images.pexels.com/photos/5875866/pexels-photo-5875866.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['Flipkart'],
         inStock: true,
         delivery: '2-3 days'
       }
@@ -160,7 +176,7 @@ const mockProducts: Product[] = [
         name: 'Amazon',
         price: 12995,
         url: 'https://www.amazon.in/Nike-Air-Max-270-React/dp/B07TQNQV9M',
-        logo: 'https://images.pexels.com/photos/7010427/pexels-photo-7010427.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['Amazon'],
         inStock: true,
         delivery: '2-3 days'
       },
@@ -168,7 +184,7 @@ const mockProducts: Product[] = [
         name: 'Myntra',
         price: 12499,
         url: 'https://www.myntra.com/nike-air-max-270-react',
-        logo: 'https://images.pexels.com/photos/5875866/pexels-photo-5875866.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['Myntra'],
         inStock: true,
         delivery: '3-4 days'
       }
@@ -216,7 +232,7 @@ const mockProducts: Product[] = [
         name: 'Amazon',
         price: 8999,
         url: 'https://www.amazon.in/Instant-Pot-Electric-Pressure-Cooker/dp/B00FLYWNYQ',
-        logo: 'https://images.pexels.com/photos/7010427/pexels-photo-7010427.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['Amazon'],
         inStock: true,
         delivery: '1-2 days'
       },
@@ -224,7 +240,7 @@ const mockProducts: Product[] = [
         name: 'Flipkart',
         price: 8799,
         url: 'https://www.flipkart.com/instant-pot-duo-7-in-1',
-        logo: 'https://images.pexels.com/photos/5875866/pexels-photo-5875866.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['Flipkart'],
         inStock: true,
         delivery: '2-3 days'
       }
@@ -272,7 +288,7 @@ const mockProducts: Product[] = [
         name: 'Amazon',
         price: 499,
         url: 'https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834',
-        logo: 'https://images.pexels.com/photos/7010427/pexels-photo-7010427.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['Amazon'],
         inStock: true,
         delivery: '1-2 days'
       },
@@ -280,7 +296,7 @@ const mockProducts: Product[] = [
         name: 'Flipkart',
         price: 479,
         url: 'https://www.flipkart.com/atomic-habits/p/itm3e5ac71b7a0b4',
-        logo: 'https://images.pexels.com/photos/5875866/pexels-photo-5875866.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['Flipkart'],
         inStock: true,
         delivery: '2-3 days'
       }
@@ -328,7 +344,7 @@ const mockProducts: Product[] = [
         name: 'Amazon',
         price: 1950,
         url: 'https://www.amazon.in/MAC-Matte-Lipstick-Ruby-Woo/dp/B00MG8WNRO',
-        logo: 'https://images.pexels.com/photos/7010427/pexels-photo-7010427.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['Amazon'],
         inStock: true,
         delivery: '2-3 days'
       },
@@ -336,7 +352,7 @@ const mockProducts: Product[] = [
         name: 'Nykaa',
         price: 1899,
         url: 'https://www.nykaa.com/mac-lipstick/p/6909',
-        logo: 'https://images.pexels.com/photos/5875866/pexels-photo-5875866.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        logo: platformLogos['Nykaa'],
         inStock: true,
         delivery: '3-4 days'
       }

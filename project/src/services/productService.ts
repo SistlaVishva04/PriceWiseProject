@@ -25,16 +25,16 @@ const mockProducts: Product[] = [
   // Electronics Category
   {
     id: '1',
-    name: 'Apple iPhone 13 Pro Max (256GB, Graphite)',
-    description: 'The iPhone 13 Pro Max features a 6.7-inch Super Retina XDR display with ProMotion technology, a triple-camera system with new sensors, the A15 Bionic chip for lightning-fast performance, and incredible battery life—all in a durable design with Ceramic Shield.',
-    image: 'https://images.pexels.com/photos/5750001/pexels-photo-5750001.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    name: 'Apple iPhone 15 (Black, 128 GB)',
+    description: 'Experience the iPhone 15  your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you are busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust. Capture life with precision using the 48 MP Main Camera, perfect for any shot. Powered by the A16 Bionic Processor, it excels in computational photography and more, all while conserving battery life. Plus, its USB-C compatible, simplifying your charging needs. Elevate your tech game with the iPhone 15  innovation at your fingertips. Goodbye cable clutter, hello convenience.',
+    image: 'https://m.media-amazon.com/images/I/51brdXeugJL._SL1500_.jpg',
     images: [
-      'https://images.pexels.com/photos/5750001/pexels-photo-5750001.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      'https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      'https://images.pexels.com/photos/4071887/pexels-photo-4071887.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      'https://images.pexels.com/photos/5750000/pexels-photo-5750000.jpeg?auto=compress&cs=tinysrgb&w=1600'
+      'https://m.media-amazon.com/images/I/71657TiFeHL._SL1500_.jpg',
+      'https://m.media-amazon.com/images/I/712CBkmhLhL._SL1500_.jpg',
+      'https://m.media-amazon.com/images/I/81BnjSLm2oL._SL1500_.jpg',
+      'https://m.media-amazon.com/images/I/61f4dTush1L._SL1500_.jpg'
     ],
-    price: 129900,
+    price: 59700,
     rating: 4.8,
     reviewCount: 3254,
     category: {
@@ -47,24 +47,24 @@ const mockProducts: Product[] = [
     platforms: [
       {
         name: 'Amazon',
-        price: 129900,
-        url: 'https://www.amazon.in/Apple-iPhone-13-Pro-Max/dp/B09G9HD6PD',
+        price: 59700,
+        url: 'https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=sr_1_1_sspa?crid=3RHX7BT3BLPS&dib=eyJ2IjoiMSJ9.NFc5XS-FWFSbHsvsdcmAYFl17rHALpjDndzWbpNnG-V3bTAyHsjnQlRBVombFYdyThlxqpcAk2ahnjxScCdWEWEWyyuk6ylqoodWMIaC5mN8GG9zQzKT-N88-UhxYkZ4QREKTB9Ahj7VaVwDJbh44ns-tjVFAWgFlV0_TF0NO6gtAQkiOo9Xyzn1bABdbQ4J5uSa5hcpHq-QOBARFpxVGAttt5hsZm7TIHmdufOhk5Q.tWLe9TawhgWec50NONRBmOCOwkdnvIgZ_lHeTdpdKB0&dib_tag=se&keywords=Apple%2BiPhone%2B15&nsdOptOutParam=true&qid=1750234754&sprefix=apple%2Biphone%2B15p%2Caps%2C248&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1',
         logo: platformLogos['Amazon'],
         inStock: true,
         delivery: '1-2 days'
       },
       {
         name: 'Flipkart',
-        price: 129999,
-        url: 'https://www.flipkart.com/apple-iphone-13-pro-max-graphite-256-gb/p/itm5a2928ba72a03',
+        price:64900,
+        url: 'https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=sr_1_1_sspa?crid=3RHX7BT3BLPS&dib=eyJ2IjoiMSJ9.NFc5XS-FWFSbHsvsdcmAYFl17rHALpjDndzWbpNnG-V3bTAyHsjnQlRBVombFYdyThlxqpcAk2ahnjxScCdWEWEWyyuk6ylqoodWMIaC5mN8GG9zQzKT-N88-UhxYkZ4QREKTB9Ahj7VaVwDJbh44ns-tjVFAWgFlV0_TF0NO6gtAQkiOo9Xyzn1bABdbQ4J5uSa5hcpHq-QOBARFpxVGAttt5hsZm7TIHmdufOhk5Q.tWLe9TawhgWec50NONRBmOCOwkdnvIgZ_lHeTdpdKB0&dib_tag=se&keywords=Apple%2BiPhone%2B15&nsdOptOutParam=true&qid=1750234754&sprefix=apple%2Biphone%2B15p%2Caps%2C248&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1',
         logo: platformLogos['Flipkart'],
         inStock: true,
         delivery: '2-3 days'
       },
       {
         name: 'Apple Store',
-        price: 129900,
-        url: 'https://www.apple.com/in/shop/buy-iphone/iphone-13-pro',
+        price: 69900,
+        url: 'https://www.apple.com/in/shop/buy-iphone/iphone-15',
         logo: platformLogos['AppleStore'],
         inStock: true,
         delivery: 'Same day'
@@ -100,10 +100,11 @@ const mockProducts: Product[] = [
     id: '2',
     name: 'Samsung Galaxy S22 Ultra (256GB, Phantom Black)',
     description: 'The Samsung Galaxy S22 Ultra combines the power of the Note series with the camera excellence of S series.',
-    image: 'https://images.pexels.com/photos/13123937/pexels-photo-13123937.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: 'https://m.media-amazon.com/images/I/819HePm8FRL._SL1500_.jpg',
     images: [
-      'https://images.pexels.com/photos/13123937/pexels-photo-13123937.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      'https://images.pexels.com/photos/9833470/pexels-photo-9833470.jpeg?auto=compress&cs=tinysrgb&w=1600'
+      'https://m.media-amazon.com/images/I/819HePm8FRL._SL1500_.jpg',
+      'https://m.media-amazon.com/images/I/81Jx9HjYt0L._SL1500_.jpg',
+      'https://m.media-amazon.com/images/I/71Mo2pzT4XL._SL1500_.jpg'
     ],
     price: 109999,
     rating: 4.7,
@@ -118,16 +119,16 @@ const mockProducts: Product[] = [
     platforms: [
       {
         name: 'Amazon',
-        price: 109999,
-        url: 'https://www.amazon.in/Samsung-Galaxy-Ultra-Phantom-Storage/dp/B09SH7FDKT',
+        price: 74999,
+        url: 'https://www.amazon.in/Samsung-Phantom-Storage-Additional-Exchange/dp/B09SH994JW/ref=sr_1_1?crid=2OCH9LQYWFTZE&dib=eyJ2IjoiMSJ9.DjvH-Y7MvMop2OUXPIyXl4ov0cVRQ7HTn2gfZzql_aFs2pMlwFVukxq40GP3f95l3ncU11_UVY1KFi3-6FowPFtvm_EV_68G2KtQbfmfc2E_fiTS2uf-TAhpMGeh-5i1zFhXw6nCCaU_m6uXSQABa3w6FZYh490KpMli2_CJ_qdHT2lNKE1z-xCS_i5BEjnU8kFRXlXylWrS4NdLKbuBNRNn_-ig8dqePT5-I-LIfEM.K6rQCDRsZ30cv34SM_XHu0j3GoM4w-LQtwwx-laa_8A&dib_tag=se&keywords=Samsung+Galaxy+S22+Ultra+%28256GB%2C+Phantom+Black%29&nsdOptOutParam=true&qid=1750235645&sprefix=samsung+galaxy+s22+ultra+256gb%2C+phantom+black+%2Caps%2C317&sr=8-1',
         logo:platformLogos['Amazon'],
         inStock: true,
         delivery: '1-2 days'
       },
       {
         name: 'Flipkart',
-        price: 109999,
-        url: 'https://www.flipkart.com/samsung-galaxy-s22-ultra-5g-phantom-black-256-gb/p/itm4a0d5d5386849',
+        price: 82100,
+        url: 'https://www.flipkart.com/samsung-galaxy-s22-ultra-5g-phantom-black-256-gb/p/itm7ca5bd1817da5?pid=MOBGGG2YA4MHBBZZ&lid=LSTMOBGGG2YA4MHBBZZ2YHC2U&marketplace=FLIPKART&q=Samsung+Galaxy+S22+Ultra+%28256GB%2C+Phantom+Black%29&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=a8a031e6-260e-4bf7-8914-4c54bdfaa16d.MOBGGG2YA4MHBBZZ.SEARCH&ppt=pp&ppn=pp&ssid=g2e4z6n5gdit0l4w1750235638707&qH=a84beda182609008',
         logo: platformLogos['Flipkart'],
         inStock: true,
         delivery: '2-3 days'
@@ -156,10 +157,11 @@ const mockProducts: Product[] = [
     id: '3',
     name: 'Nike Air Max 270 React',
     description: 'The Nike Air Max 270 React combines two of Nike\'s biggest innovations for cushioning.',
-    image: 'https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: 'https://m.media-amazon.com/images/I/613fjQtsd2L._SY695_.jpg',
     images: [
-      'https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      'https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1600'
+      'https://m.media-amazon.com/images/I/613fjQtsd2L._SY695_.jpg',
+      'https://m.media-amazon.com/images/I/61+q-uBq26L._SY695_.jpg',
+      'https://m.media-amazon.com/images/I/71H7Yg3uMBL._SY695_.jpg'
     ],
     price: 12995,
     rating: 4.5,
@@ -174,17 +176,73 @@ const mockProducts: Product[] = [
     platforms: [
       {
         name: 'Amazon',
-        price: 12995,
-        url: 'https://www.amazon.in/Nike-Air-Max-270-React/dp/B07TQNQV9M',
+        price: 12595,
+        url: ' https://amzn.in/d/1SKTUqh ',
         logo: platformLogos['Amazon'],
         inStock: true,
         delivery: '2-3 days'
       },
       {
-        name: 'Myntra',
-        price: 12499,
-        url: 'https://www.myntra.com/nike-air-max-270-react',
-        logo: platformLogos['Myntra'],
+        name: 'Flipkart',
+        price: 12595,
+        url: 'https://www.flipkart.com/nike-air-max-270-sneakers-men/p/itm0b90787f8dd2f?pid=SHOGYHFQWAYWMU63&lid=LSTSHOGYHFQWAYWMU63GVOKKY&marketplace=FLIPKART&q=Nike+Air+Max+270+React&store=osp%2Fcil%2F1cu&srno=s_1_5&otracker=search&otracker1=search&fm=Search&iid=6e457666-7e58-4786-982a-60ec8586a5dd.SHOGYHFQWAYWMU63.SEARCH&ppt=sp&ppn=sp&ssid=uf8kb2xy9ug9tg5c1750235955296&qH=5b5d35d87f42a791',
+        logo: platformLogos['Flipkart'],
+        inStock: true,
+        delivery: '3-4 days'
+      }
+    ],
+    keyFeatures: [
+      'Nike React foam midsole',
+      'Max Air 270 unit in heel',
+      'Lightweight and breathable'
+    ],
+    specifications: [
+      {
+        category: 'Material',
+        name: 'Upper',
+        value: 'Engineered mesh'
+      },
+      {
+        category: 'Cushioning',
+        name: 'Type',
+        value: 'React foam + Air'
+      }
+    ]
+  },
+  {
+    id: '3',
+    name: 'Nike Air Max 270 React',
+    description: 'The Nike Air Max 270 React combines two of Nike\'s biggest innovations for cushioning.',
+    image: 'https://m.media-amazon.com/images/I/613fjQtsd2L._SY695_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/613fjQtsd2L._SY695_.jpg',
+      'https://m.media-amazon.com/images/I/61+q-uBq26L._SY695_.jpg',
+      'https://m.media-amazon.com/images/I/71H7Yg3uMBL._SY695_.jpg'
+    ],
+    price: 12995,
+    rating: 4.5,
+    reviewCount: 1256,
+    category: {
+      id: 'fashion',
+      name: 'Fashion',
+      slug: 'fashion',
+      image: 'https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      productCount: 12458
+    },
+    platforms: [
+      {
+        name: 'Amazon',
+        price: 12595,
+        url: ' https://amzn.in/d/1SKTUqh ',
+        logo: platformLogos['Amazon'],
+        inStock: true,
+        delivery: '2-3 days'
+      },
+      {
+        name: 'Flipkart',
+        price: 12595,
+        url: 'https://www.flipkart.com/nike-air-max-270-sneakers-men/p/itm0b90787f8dd2f?pid=SHOGYHFQWAYWMU63&lid=LSTSHOGYHFQWAYWMU63GVOKKY&marketplace=FLIPKART&q=Nike+Air+Max+270+React&store=osp%2Fcil%2F1cu&srno=s_1_5&otracker=search&otracker1=search&fm=Search&iid=6e457666-7e58-4786-982a-60ec8586a5dd.SHOGYHFQWAYWMU63.SEARCH&ppt=sp&ppn=sp&ssid=uf8kb2xy9ug9tg5c1750235955296&qH=5b5d35d87f42a791',
+        logo: platformLogos['Flipkart'],
         inStock: true,
         delivery: '3-4 days'
       }
@@ -212,10 +270,11 @@ const mockProducts: Product[] = [
     id: '4',
     name: 'Instant Pot Duo 7-in-1 Electric Pressure Cooker',
     description: 'The Instant Pot Duo combines 7 appliances in one: pressure cooker, slow cooker, rice cooker, steamer, sauté pan, yogurt maker, and warmer.',
-    image: 'https://images.pexels.com/photos/4109998/pexels-photo-4109998.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: 'https://m.media-amazon.com/images/I/710KoJMG2lL._SL1500_.jpg',
     images: [
-      'https://images.pexels.com/photos/4109998/pexels-photo-4109998.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      'https://images.pexels.com/photos/4109999/pexels-photo-4109999.jpeg?auto=compress&cs=tinysrgb&w=1600'
+      'https://m.media-amazon.com/images/I/81v7TY+NCqL._SL1500_.jpg',
+       'https://m.media-amazon.com/images/I/710KoJMG2lL._SL1500_.jpg',
+      'https://m.media-amazon.com/images/I/81XvRzPpd7L._SL1500_.jpg'
     ],
     price: 8999,
     rating: 4.8,
@@ -224,22 +283,22 @@ const mockProducts: Product[] = [
       id: 'home',
       name: 'Home & Kitchen',
       slug: 'home-kitchen',
-      image: 'https://images.pexels.com/photos/1358900/pexels-photo-1358900.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      image: 'https://m.media-amazon.com/images/I/710KoJMG2lL._SL1500_.jpg',
       productCount: 9845
     },
     platforms: [
       {
         name: 'Amazon',
-        price: 8999,
-        url: 'https://www.amazon.in/Instant-Pot-Electric-Pressure-Cooker/dp/B00FLYWNYQ',
+        price: 11999,
+        url: 'https://www.amazon.in/Instant-Pot-Multi-Use-Programmable-Pressure/dp/B00FLYWNYQ/ref=sr_1_1_sspa?crid=2C23PQK91EQ64&dib=eyJ2IjoiMSJ9.2bTkAlQ1-EFEsdfcFbCM7RNRH14Mtx6J4YB1XnvjiBzEXRiEtbqu-UEYxpTcgQ-3vHPGmXP0YsbKbVnCzPOTX62c6Dy5fDtnwSDHm2y3uFqUNmiqSTXwYYzHjFlkHRSd_SWMrLPbmbf72A6i_T3coc45XZxdDXCLVMA0gEISsY6k67LzQTEvATngdl7EmaGtuMjjk0NL2KEZ8EdbM3GsepudOcNKlaYNgBHIb4qUd0o.AGI725jY5BxOlkDgaiYURCNB1vRvMbBashRuJZqI780&dib_tag=se&keywords=Instant%2BPot%2BDuo%2B7-in-1%2BElectric%2BPressure%2BCooker&qid=1750236406&sprefix=instant%2Bpot%2Bduo%2B7-in-1%2Belectric%2Bpressure%2Bcooker%2Caps%2C284&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1',
         logo: platformLogos['Amazon'],
         inStock: true,
         delivery: '1-2 days'
       },
       {
         name: 'Flipkart',
-        price: 8799,
-        url: 'https://www.flipkart.com/instant-pot-duo-7-in-1',
+        price: 11999,
+        url: 'https://www.flipkart.com/instant-pot-duo-60-electric-pressure-cooker/p/itmeb20b0d6c4b7e?pid=ECKGF2GSEERHRUGZ&lid=LSTECKGF2GSEERHRUGZAGUNGC&marketplace=FLIPKART&q=Instant+Pot+Duo+7-in-1+Electric+Pressure+Cooker&store=j9e%2Fm38%2F9m9&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=e51eee1a-fdfa-4ca7-8405-3c1b07e03861.ECKGF2GSEERHRUGZ.SEARCH&ppt=sp&ppn=sp&ssid=ezsq9dpchnghu0ow1750236412227&qH=375def6a1b54bcec',
         logo: platformLogos['Flipkart'],
         inStock: true,
         delivery: '2-3 days'

@@ -29,8 +29,8 @@
 
 Using npm:
 
-> npm install
 
-**Run the project with**:
-Using npm:
-> npm start
+🙋‍♂️ Author
+Made with 💙 by Vishva Sistla
+
+

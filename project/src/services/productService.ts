@@ -209,62 +209,6 @@ const mockProducts: Product[] = [
       }
     ]
   },
-  {
-    id: '3',
-    name: 'Nike Air Max 270 React',
-    description: 'The Nike Air Max 270 React combines two of Nike\'s biggest innovations for cushioning.',
-    image: 'https://m.media-amazon.com/images/I/613fjQtsd2L._SY695_.jpg',
-    images: [
-      'https://m.media-amazon.com/images/I/613fjQtsd2L._SY695_.jpg',
-      'https://m.media-amazon.com/images/I/61+q-uBq26L._SY695_.jpg',
-      'https://m.media-amazon.com/images/I/71H7Yg3uMBL._SY695_.jpg'
-    ],
-    price: 12995,
-    rating: 4.5,
-    reviewCount: 1256,
-    category: {
-      id: 'fashion',
-      name: 'Fashion',
-      slug: 'fashion',
-      image: 'https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      productCount: 12458
-    },
-    platforms: [
-      {
-        name: 'Amazon',
-        price: 12595,
-        url: ' https://amzn.in/d/1SKTUqh ',
-        logo: platformLogos['Amazon'],
-        inStock: true,
-        delivery: '2-3 days'
-      },
-      {
-        name: 'Flipkart',
-        price: 12595,
-        url: 'https://www.flipkart.com/nike-air-max-270-sneakers-men/p/itm0b90787f8dd2f?pid=SHOGYHFQWAYWMU63&lid=LSTSHOGYHFQWAYWMU63GVOKKY&marketplace=FLIPKART&q=Nike+Air+Max+270+React&store=osp%2Fcil%2F1cu&srno=s_1_5&otracker=search&otracker1=search&fm=Search&iid=6e457666-7e58-4786-982a-60ec8586a5dd.SHOGYHFQWAYWMU63.SEARCH&ppt=sp&ppn=sp&ssid=uf8kb2xy9ug9tg5c1750235955296&qH=5b5d35d87f42a791',
-        logo: platformLogos['Flipkart'],
-        inStock: true,
-        delivery: '3-4 days'
-      }
-    ],
-    keyFeatures: [
-      'Nike React foam midsole',
-      'Max Air 270 unit in heel',
-      'Lightweight and breathable'
-    ],
-    specifications: [
-      {
-        category: 'Material',
-        name: 'Upper',
-        value: 'Engineered mesh'
-      },
-      {
-        category: 'Cushioning',
-        name: 'Type',
-        value: 'React foam + Air'
-      }
-    ]
-  },
   // Home & Kitchen Category
   {
     id: '4',

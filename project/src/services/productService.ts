@@ -47,7 +47,7 @@ const mockProducts: Product[] = [
     platforms: [
       {
         name: 'Amazon',
-        price: 59700,
+        price: 61400,
         url: 'https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=sr_1_1_sspa?crid=3RHX7BT3BLPS&dib=eyJ2IjoiMSJ9.NFc5XS-FWFSbHsvsdcmAYFl17rHALpjDndzWbpNnG-V3bTAyHsjnQlRBVombFYdyThlxqpcAk2ahnjxScCdWEWEWyyuk6ylqoodWMIaC5mN8GG9zQzKT-N88-UhxYkZ4QREKTB9Ahj7VaVwDJbh44ns-tjVFAWgFlV0_TF0NO6gtAQkiOo9Xyzn1bABdbQ4J5uSa5hcpHq-QOBARFpxVGAttt5hsZm7TIHmdufOhk5Q.tWLe9TawhgWec50NONRBmOCOwkdnvIgZ_lHeTdpdKB0&dib_tag=se&keywords=Apple%2BiPhone%2B15&nsdOptOutParam=true&qid=1750234754&sprefix=apple%2Biphone%2B15p%2Caps%2C248&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1',
         logo: platformLogos['Amazon'],
         inStock: true,
@@ -55,7 +55,7 @@ const mockProducts: Product[] = [
       },
       {
         name: 'Flipkart',
-        price:64900,
+        price:61400,
         url: 'https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=sr_1_1_sspa?crid=3RHX7BT3BLPS&dib=eyJ2IjoiMSJ9.NFc5XS-FWFSbHsvsdcmAYFl17rHALpjDndzWbpNnG-V3bTAyHsjnQlRBVombFYdyThlxqpcAk2ahnjxScCdWEWEWyyuk6ylqoodWMIaC5mN8GG9zQzKT-N88-UhxYkZ4QREKTB9Ahj7VaVwDJbh44ns-tjVFAWgFlV0_TF0NO6gtAQkiOo9Xyzn1bABdbQ4J5uSa5hcpHq-QOBARFpxVGAttt5hsZm7TIHmdufOhk5Q.tWLe9TawhgWec50NONRBmOCOwkdnvIgZ_lHeTdpdKB0&dib_tag=se&keywords=Apple%2BiPhone%2B15&nsdOptOutParam=true&qid=1750234754&sprefix=apple%2Biphone%2B15p%2Caps%2C248&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1',
         logo: platformLogos['Flipkart'],
         inStock: true,
@@ -209,6 +209,129 @@ const mockProducts: Product[] = [
       }
     ]
   },
+  {
+    id: 'olevs-business-easy-read',
+    name: 'OLEVS Mens Business Easy‑Read Stainless Steel Waterproof Watch',
+    description: 'An affordable business‑style analog quartz wristwatch by OLEVS, featuring a large easy‑read dial with day‑date display, luminous hands, and a stainless steel bracelet with safety clasp. Water‑resistant up to 30 m for daily wear.',
+    image: 'https://m.media-amazon.com/images/I/61aQQDhzqAL._SX679_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/61aQQDhzqAL._SX679_.jpg',
+      'https://m.media-amazon.com/images/I/71NeiRc-kwL._SX679_.jpg',
+      'https://m.media-amazon.com/images/I/6161sxA990L._SX679_.jpg',
+      'https://m.media-amazon.com/images/I/61LHqH4DC0L._SX679_.jpg'
+    ],
+    price: 3420,
+    rating: 4.5,
+    reviewCount: 9432,
+    category: {
+      id: 'fashion',
+      name: 'Fashion',
+      slug: 'fashion',
+      image: 'https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      productCount: 12458
+    },
+    platforms: [
+      {
+        name: 'Amazon',
+        price: 3420,
+        url: ' https://www.amazon.in/OLEVS-Business-Easy-Read-Stainless-Waterproof/dp/B0D44HRXSK/ref=sr_1_1_sspa?crid=2ECESY6T9KQPO&dib=eyJ2IjoiMSJ9.qjzypz2hh2g7BxKQmW1_ArVUeydEGsuINPvyAWGbJy4kUMIxdjp4tx0UDqcS_-7p_GvoAwm7Bjz9Eu283zJaYWM-Rojtt_CRI5Wlt1gCwIi6MRicNra8IoKNLEk_zYlyj26DCu9WTzntKu7t5lAaWMK_-zStSnf7yynU-uaYehfG_Nj0DKAkQZC39T7WaKIhF-zi1OB-iu1b4J9L97MXKAvIlvAsjvel0-f_tDtA-FYkOtCI28Zsp5oOeOScnEg6a1iWIZUL0Dp8r4sNgw8okBLcJgVd3_ep2FmiQApHvs4.-DI-fvpFioDyiArDiK5ifPmXu6qc1VyvR9TVxZp2NSs&dib_tag=se&keywords=rolex%2Bwatch%2Bfor%2Bman&nsdOptOutParam=true&qid=1753803175&s=watches&sprefix=watceh%2Cwatches%2C221&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1',
+        logo: platformLogos['Amazon'],
+        inStock: true,
+        delivery: '2-3 days'
+      },
+      {
+        name: 'Flipkart',
+        price: 3193,
+        url: 'https://www.flipkart.com/olevs-analog-watch-men/p/itm9fbf2f5b3cbf9?pid=WATHDDG2ZDQCSHFN&lid=LSTWATHDDG2ZDQCSHFND3DPVE&marketplace=FLIPKART&q=OLEVS%20Mens%20Business%20Watch%20Gold%20Blue%20with%20Large%20Easy-Read%20Analog%20Quartz%20Date%20Display%20Luxury%20Stainless%20Steel%20Band%20Waterproof%20Luminous%20Hands&sattr[]=strap_color&sattr[]=dial_color&st=strap_color',
+        logo: platformLogos['Flipkart'],
+        inStock: true,
+        delivery: '3-4 days'
+      }
+    ],
+    keyFeatures: [
+      "Large easy‑read dial with Arabic numerals",
+    "Day‑date calendar window",
+    "Luminous hands for night visibility",
+    "316L stainless steel case and bracelet",
+    "Adjustable push‑button hidden clasp",
+    "Quartz movement for accurate timekeeping",
+    "Water‑resistant to 30 m (daily splash/rain safe)"
+    ],
+    specifications: [
+      {
+        category: 'Material',
+        name: 'Upper',
+        value: 'Engineered mesh'
+      },
+      {
+        category: 'Cushioning',
+        name: 'Type',
+        value: 'React foam + Air'
+      }
+    ]
+  },
+  {
+    id: 'arrow-white-slim-ASAGSH1522',
+    name: 'Arrow Mens 100% Cotton Slim Fit Shirt',
+    description: 'A pure‑cotton slim‑fit full‑sleeve men’s shirt from Arrow, featuring a spread collar, chest patch pocket, full button placket and straight hem. Ideal for formal or smart casual wear.',
+    image: 'https://m.media-amazon.com/images/I/61QGaShAgDL._SX679_.jpg',
+    images: [
+      'https://m.media-amazon.com/images/I/811tQBffz+L._SX679_.jpg',
+      'https://m.media-amazon.com/images/I/61t7vd0T98L._SX679_.jpg',
+      'https://m.media-amazon.com/images/I/61QGaShAgDL._SX679_.jpg',
+      'https://m.media-amazon.com/images/I/71FxmOPEpPL._SX679_.jpg'
+    ],
+    price: 1999,
+    rating: 4.5,
+    reviewCount: 1256,
+    category: {
+      id: 'fashion',
+      name: 'Fashion',
+      slug: 'fashion',
+      image: 'https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      productCount: 12458
+    },
+    platforms: [
+      {
+        name: 'Amazon',
+        price: 899,
+        url: ' https://www.amazon.in/Arrow-Mens-Slim-Shirt-ASAGSH1522_White/dp/B0CPFJG6KG/ref=sr_1_1_sspa?crid=14FAFET9ZWPFM&dib=eyJ2IjoiMSJ9.nfOpGzKYMmZkudMpGdaSdC-yJHmHykIyzRWnLenM3Pc3pbYvDXZPtre55Cewb7Ot4BSoHY3UTBfCptSc9l_vItNmFXfERccVpDONSVgGl4X-nKgP7iKNBexO8kJ4v3vuFnk5ZoSmjNEQDLKU2TzWyWL7lIl0MfXRbalROQHBKFFpxp7VBGZRSeBCXnwEN7WWmT_GZQ9bezp3P8ZV32xwqaNhRH4TnhiiK_PcW_e6W5Mplz60hLnxPsQKCUbpjeAd0HT8Ayzv2cB1abkdJTjXUKuWCtWfmHm8rRr3iYArNFM.4xZUcqvUyLJTtRjfPf2lhpIyIx56Zuns7N163f5cA9Y&dib_tag=se&keywords=white%2Bshirt%2Bfor%2Bman&qid=1753801976&s=apparel&sprefix=white%2B%2Capparel%2C297&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1',
+        logo: platformLogos['Amazon'],
+        inStock: true,
+        delivery: '2-3 days'
+      },
+      {
+        name: 'Flipkart',
+        price: 1659,
+        url: 'https://www.flipkart.com/arrow-sport-men-solid-casual-pink-shirt/p/itm6e6fb462e8201?pid=SHTG7HYHZGVAJWNX&lid=LSTSHTG7HYHZGVAJWNXUOOWEB&marketplace=FLIPKART&q=Arrow+Mens+100%25+Cotton+Slim+Fit+Shirt&store=clo%2Fash%2Faxc%2Fmmk&srno=s_1_26&otracker=search&otracker1=search&fm=Search&iid=dbd9583d-ca40-4e13-a54b-7308e82f4e10.SHTG7HYHZGVAJWNX.SEARCH&ppt=sp&ppn=sp&qH=2dcfc47e65b429e5',
+        logo: platformLogos['Flipkart'],
+        inStock: true,
+        delivery: '3-4 days'
+      }
+    ],
+    keyFeatures: [
+      "Slim Fit tailored cut",
+    "Spread collar",
+    "Full sleeves with button cuffs",
+    "Chest patch pocket",
+    "Full button placket",
+    "Straight hemline",
+    "Pure cotton fabric, machine‑washable"
+    ],
+    specifications: [
+      {
+      "category": "Fabric",
+      "name": "Material",
+      "value": "100% Cotton"
+    },
+    {
+      "category": "Fit",
+      "name": "Type",
+      "value": "Slim Fit"
+    },
+    
+    ]
+  },
   // Home & Kitchen Category
   {
     id: '4',
@@ -290,7 +413,7 @@ const mockProducts: Product[] = [
       {
         name: 'Amazon',
         price: 499,
-        url: 'https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834',
+        url: 'https://www.amazon.in/s?k=Atomic+Habits+-+Make+Unbreakable+Habits+%28Paperback%2C+James+Clear%29&crid=2LC3BWZMSBJOG&sprefix=atomic+habits+-+make+unbreakable+habits+paperback%2C+james+clear+%2Caps%2C229&ref=nb_sb_noss',
         logo: platformLogos['Amazon'],
         inStock: true,
         delivery: '1-2 days'
@@ -298,16 +421,19 @@ const mockProducts: Product[] = [
       {
         name: 'Flipkart',
         price: 479,
-        url: 'https://www.flipkart.com/atomic-habits/p/itm3e5ac71b7a0b4',
+        url: 'https://www.flipkart.com/atomic-habits-make-unbreakable/p/itma9c782688ad3d?pid=9781908116314&lid=LSTBOK9781908116314CWIS5Q&marketplace=FLIPKART&q=Atomic+Habits+by+James+Clear&store=bks&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_N_UP61UxqGompYyF31NNngTpkscnKzwQY9XEUgOTncoWcxc3peNxo6nKugKcKlWNYDRdJwMd_867Y2AQeG6pLw%3D%3D&ppt=pp&ppn=pp&ssid=19eduu8bmo0000001753804010261&qH=ee51bead0d235d2b',
         logo: platformLogos['Flipkart'],
         inStock: true,
         delivery: '2-3 days'
       }
     ],
     keyFeatures: [
-      'Hardcover',
-      '320 pages',
-      'International bestseller'
+      "Focuses on the compound impact of tiny changes (‘atomic habits’)",
+    "Introduces the Four Laws of Behavior Change: make it obvious, attractive, easy & satisfying",
+    "Uses identity‑based habit formation: become who you want to be",
+    "Includes practical tactics like Habit Stacking, Two‑Minute Rule & Goldilocks Zone",
+    "Grounded in psychology, neuroscience, and real‑world success stories",
+    "Designed for consistent incremental improvement (1 % better every day)"
     ],
     specifications: [
       {
